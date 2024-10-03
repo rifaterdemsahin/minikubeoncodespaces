@@ -34,3 +34,13 @@ users:
     client-certificate: /home/codespace/.minikube/profiles/minikube/client.crt
     client-key: /home/codespace/.minikube/profiles/minikube/client.key
 @rifaterdemsahin ➜ /workspaces/minikubeoncodespaces (main) $ 
+
+///////////////////////////
+
+@rifaterdemsahin ➜ /workspaces/minikubeoncodespaces (main) $ minikube status
+minikube
+type: Control Plane
+host: Running
+kubelet: Running
+apiserver: Running
+kubeconfig: Configured
