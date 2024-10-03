@@ -79,3 +79,9 @@ Let me know if the issue persists or if you need further help!
 @rifaterdemsahin ➜ /workspaces/minikubeoncodespaces (main) $ kubectl create deployment nginx --image=nginx
 deployment.apps/nginx created
 @rifaterdemsahin ➜ /workspaces/minikubeoncodespaces (main) $ 
+
+
+@rifaterdemsahin ➜ /workspaces/minikubeoncodespaces (main) $ kubectl get ingress
+NAME            CLASS    HOSTS         ADDRESS   PORTS   AGE
+nginx-ingress   <none>   nginx.local             80      2m36s
+@rifaterdemsahin ➜ /workspaces/minikubeoncodespaces (main) $ 
