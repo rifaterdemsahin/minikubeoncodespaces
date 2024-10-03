@@ -62,3 +62,20 @@ kubectl create deployment nginx --image=nginx
 ```
 
 Let me know if the issue persists or if you need further help!
+
+----------
+
+@rifaterdemsahin ➜ /workspaces/minikubeoncodespaces (main) $ minikube start
+😄  minikube v1.34.0 on Ubuntu 20.04 (docker/amd64)
+✨  Using the docker driver based on existing profile
+👍  Starting "minikube" primary control-plane node in "minikube" cluster
+🚜  Pulling base image v0.0.45 ...
+🏃  Updating the running docker "minikube" container ...
+🐳  Preparing Kubernetes v1.31.0 on Docker 27.2.0 ...
+🔎  Verifying Kubernetes components...
+    ▪ Using image gcr.io/k8s-minikube/storage-provisioner:v5
+🌟  Enabled addons: storage-provisioner, default-storageclass
+🏄  Done! kubectl is now configured to use "minikube" cluster and "default" namespace by default
+@rifaterdemsahin ➜ /workspaces/minikubeoncodespaces (main) $ kubectl create deployment nginx --image=nginx
+deployment.apps/nginx created
+@rifaterdemsahin ➜ /workspaces/minikubeoncodespaces (main) $ 
