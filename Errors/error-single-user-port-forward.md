@@ -12,5 +12,6 @@ Handling connection for 8080
 Handling connection for 8080
 
 
-Tuncer
+Users Cant Opens Other Users
 ![alt text](/Resources/tuncer-cant-open.png)
+![alt text](/Resources/Erdem-cant-open.png)
