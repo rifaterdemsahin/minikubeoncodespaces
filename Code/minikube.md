@@ -44,3 +44,10 @@ host: Running
 kubelet: Running
 apiserver: Running
 kubeconfig: Configured
+
+////////////////////////
+
+@rifaterdemsahin ➜ /workspaces/minikubeoncodespaces (main) $ kubectl get pods
+NAME                     READY   STATUS    RESTARTS      AGE
+nginx-676b6c5bbc-dvpsx   1/1     Running   1 (21m ago)   21m
+@rifaterdemsahin ➜ /workspaces/minikubeoncodespaces (main) $ 
