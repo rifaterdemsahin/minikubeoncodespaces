@@ -21,3 +21,6 @@ To see the exact DNS in Codespaces:
 That URL is the public DNS you can use to access your NGINX service.
 
 Let me know if you need more help with the process!
+
+Cleanup ports
+![alt text](/Resources/cleanup-ports.png)
